@@ -1,3 +1,3 @@
 <?php
-    header("localtion: https://about.me/kandanich");
+    header("location: https://about.me/kandanich");
 ?>
