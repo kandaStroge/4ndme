@@ -1,11 +1,57 @@
 <!doctype html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Hello</title>
+    <style>
+        body{
+            font-family: roboto;
+        }
+        a, a:active{
+            color: crimson;
+            text-decoration: none;
+        }
+        a:hover{
+            color: darkorange;
+        }
+        .box{
+            margin: auto;
+            margin-top: 5%;
+            width: fit-content;
+            padding: 4%;
+        }
+        .botton{
+            color: #ffffff;
+            padding: 5px;
+            margin-top: 15px;
+            margin-right: 5px;
+            display: inline-block;
+            background-color: crimson;
+        }
+        #profile{
+            background-color: cornflowerblue;
+        }
+        #github{
+            background-color: chartreuse;
+        }
+        span:hover{
+             background-color: darkorange !important;
+         }
+
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<h1>Hi KingBob!</h1>
-<small>This page created automatic</small>
+<div class="box">
+    <h1>Hi KingBob!</h1>
+    This page created automatic
+    <a href="https://www.packtpub.com/packt/offers/free-learning">https://www.packtpub.com/packt/offers/free-learning</a><br>
+    So, That shortlink <br>
+    <a href="https://kandation.blogspot.com"><span class="botton">MyBlog</span></a>
+    <a href="https://about.me/kandanich""><span class="botton" id="profile" >Profile</span></a>
+    <a href="https://github.com/kandation"><span class="botton" id="github">Github</span></a>
+</div>
+
 </body>
 </html>
